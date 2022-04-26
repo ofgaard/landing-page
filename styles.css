@@ -48,7 +48,7 @@ body {
 
 }
 
-.headercontent1, h1, p {
+.headercontent1>h1, p {
     color: white;
     width: 350px;
 }
@@ -72,4 +72,53 @@ body {
 .headercontent2>img {
     width: 350px;
     height: 200px;
+}
+
+.middle {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.middleheader>h1 {
+    font-size: 36px;
+    font-weight: extrabold;
+    color: black;
+    text-align: center;
+}
+
+.middlecontent {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pic>img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border: solid;
+    border-color: black;
+
+}
+
+.pic>p {
+    width: 200px;
+    height: 200px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
 }
