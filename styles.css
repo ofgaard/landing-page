@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 60px;
     padding: 10px 300px 100px;
 
 }
@@ -48,7 +48,12 @@ body {
 
 }
 
-.headercontent1>h1, p {
+.headercontent1>h1 {
+    color: white;
+    width: 350px;
+}
+
+.headercontent1>p {
     color: white;
     width: 350px;
 }
@@ -85,7 +90,7 @@ body {
 
 .middleheader>h1 {
     font-size: 36px;
-    font-weight: extrabold;
+    font-weight: bolder;
     color: black;
     text-align: center;
 }
@@ -121,4 +126,33 @@ body {
     color: black;
     font-size: 15px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    padding: 150px;
+
+}
+
+.quote>h1 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1000px;
+    margin: auto;
+    
+
+}
+
+.quote>p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: end;
+    /* How do I get the text to align properly? */
+    
 }
