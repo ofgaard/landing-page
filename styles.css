@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
+
 
 }
 
@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
+    height: 350px;
 
 }
 
@@ -76,7 +76,11 @@ body {
 
 .headercontent2>img {
     width: 350px;
-    height: 200px;
+    height: 270px;
+    border-radius: 8px;
+    border: #e5e7eb;
+    border-style: solid;
+    border-width: thin;
 }
 
 .middle {
@@ -115,7 +119,8 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 12px;
-    border: solid;
+    border-style: solid;
+    border-width: thin;
     border-color: black;
 
 }
@@ -143,7 +148,7 @@ body {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    width: 1000px;
+    width: 850px;
     margin: auto;
     
 
@@ -155,4 +160,48 @@ body {
     text-align: end;
     /* How do I get the text to align properly? */
     
+}
+
+.actioncall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonlayout {
+    background-color: #3882f6;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #e5e7eb;
+    margin: 70px 0px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+
+}
+
+.text>h1 {
+    font-size: 20px;
+}
+
+.buttonlayout>.button {
+    border: #e5e7eb;
+    border-style: solid;
+    padding: 7px 35px;
+    border-radius: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
